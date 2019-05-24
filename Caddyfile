@@ -1,0 +1,6 @@
+:80 {
+    index index.html index.htm
+    root /var/www/html
+}
+
+import /etc/caddy/vhosts/*
